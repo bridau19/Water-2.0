@@ -139,7 +139,7 @@ p {
 }
 
 .icons img {
-  width: 250px;
+  width: 20vw;
   height: 250px;
   object-fit: cover;
 }
