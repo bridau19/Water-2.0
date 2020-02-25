@@ -25,10 +25,12 @@ body, .site {
   background-color: #222;
 }
 
+/* Add dvision line next to menu items */
 .navMenu {
   border-left: 2px solid grey;
 }
 
+/* color and style of links  */
 .navLink a, a:visited {
   color: #fff;
   text-decoration: none;
@@ -37,17 +39,19 @@ body, .site {
   text-align: center;
 }
 
+/* change color when hover */
 .navLink a:hover {
   background-color: #444;
 }
 
-
+/* main title of each page */
 h1 {
   color: #fff;
   font-size: 24vmin;
   font-weight: 700;
 }
 
+/* styling of header and paragraph info sections */
 .infoSection {
   display: flex;
   flex-direction: column;
@@ -59,17 +63,20 @@ h2 {
   text-align: center;
 }
 
+/* padding and flex of content */
 .insetContainer {
   display: flex;
   flex-direction: column;
   padding: 5vw 8vw 10vw 8vw;
 }
 
+/* paragraph style attributes, chagne font according to viewing window size */
 p {
   font-size: 1.6vmax;
   text-align: center;
 }
 
+/* transparent water background for sections */
 .waterBackground {
   background-image: url('images/water-transparent.jpg');
   height: 100%;
@@ -78,6 +85,7 @@ p {
 }
 
 /* Home Page  */
+/* hero title image put text in center */
 .header1 {
   display: flex;
   justify-content: center;
@@ -89,6 +97,7 @@ p {
   background-position: center;
 }
 
+/* styling button size, cololr, border */
 .button {
   border: 0.5px solid grey;
   border-radius: 28px;
@@ -98,23 +107,27 @@ p {
   font-size: 16px;
 }
 
+/* style for text in button */
 .button a {
   text-align: center;
   color: grey;
   text-decoration: none;
-  /* font-style: italic; */
 }
 
+/* hover for button */
 .button:hover {
+  /* add shadow effect to element frame */
   box-shadow: 0 12px 20px 0 rgba(0,0,0,0.24), 0 5px 10px 0 rgba(0,0,0,0.19);
 }
 
+/* container for row of images */
 .threeColumnContainer {
   margin: 8vh 0 8vh 0;
   width: 100%;
   display: flex;
 }
 
+/* rules for image row on home, footprint, saving */
 .froggies {
   width: 100%;
   display: flex;
@@ -124,14 +137,17 @@ p {
 .froggies img{
   width: 98%;
   height: 300px;
+  /* crop, keep image from stretching */
   object-fit: cover;
 }
 
+/* container foor icons in fast facts */
 .fourColumnContainer {
   display: flex;
   justify-content: space-around;
 }
 
+/* rules for fact images on home page */
 .icons {
   display: flex;
   justify-content: space-between;
@@ -144,6 +160,7 @@ p {
   object-fit: cover;
 }
 
+/* rules for info cards on home page */
 .cards {
   width: 100%;
   display: flex;
@@ -157,6 +174,7 @@ p {
   object-fit: cover;
 }
 
+/* make each card transparent when hover over */
 .one:hover {
   opacity: 0.7;
 }
@@ -179,10 +197,12 @@ p {
   background-position: center;
 }
 
+/* add padding to seperate info in columns */
 .froggies, .twoColumnContainer p {
   padding-right: 4vw;
 }
 
+/* create two clumns of text */
 .twoColumnContainer {
   width: 100%;
   display: flex;
@@ -201,6 +221,7 @@ p {
   background-position: bottom;
 }
 
+/* columnOne and Two to split space within container evenly between divs */
 .columnOne {
   width: 100%;
   padding-left: 3vw;
@@ -221,6 +242,7 @@ p {
   background-position: bottom;
 }
 
+/* rules for table, heading, standard cell */
 table, th, td {
   border: 1px solid white;
   /* collapses borders into one line*/
@@ -230,8 +252,9 @@ table, th, td {
   font-size: 16px;
 }
 
+/* static footer at bottom of each page */
 .footer {
-  position: static;
+  /* position left at default */
   left: 0;
   bottom: 0;
   width: 100vw;
@@ -240,6 +263,7 @@ table, th, td {
   text-align: center;
 }
 
+/* change footer font size */
 .footer p {
   font-size: 16px;
 }
